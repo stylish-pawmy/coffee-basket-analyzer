@@ -14,7 +14,7 @@ certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.4.0
 click==8.1.7
--e git+https://github.com/stylish-pawmy/coffee-basket-analyzer.git@3106083fdeecaf6a32ea15089a5467d720c7d700#egg=coffee_basket_analyzer
+-e git+https://github.com/stylish-pawmy/coffee-basket-analyzer.git@efa56361350c39dc241b8ef96118b38884058ab3#egg=coffee_basket_analyzer
 colorama==0.4.6
 comm==0.2.2
 contourpy==1.3.1
