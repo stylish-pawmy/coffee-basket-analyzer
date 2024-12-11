@@ -1,0 +1,52 @@
+,support,itemsets,labels
+0,0.14470416987755802,frozenset({np.int64(13)}),Gourmet brewed coffee
+1,0.14681051459885264,frozenset({np.int64(4)}),Brewed Chai tea
+2,0.09810771470160116,frozenset({np.int64(17)}),Hot chocolate
+3,0.07242914633102149,frozenset({np.int64(10)}),Drip coffee
+4,0.08635157119616406,frozenset({np.int64(27)}),Scone
+5,0.13947255758198476,frozenset({np.int64(0)}),Barista Espresso
+6,0.09704597996403802,frozenset({np.int64(3)}),Brewed Black tea
+7,0.04852298998201901,frozenset({np.int64(5)}),Brewed Green tea
+8,0.0962068670262865,frozenset({np.int64(6)}),Brewed herbal tea
+9,0.04884836030482062,frozenset({np.int64(1)}),Biscotti
+10,0.05702543025944002,frozenset({np.int64(23)}),Pastry
+11,0.07267745526158062,frozenset({np.int64(22)}),Organic brewed coffee
+12,0.06954362531038616,frozenset({np.int64(25)}),Premium brewed coffee
+13,0.04255501327168422,frozenset({np.int64(26)}),Regular syrup
+14,0.0031338299511944516,frozenset({np.int64(12)}),Gourmet Beans
+15,0.0035533864200702116,frozenset({np.int64(20)}),Organic Beans
+16,0.015497902217655622,frozenset({np.int64(28)}),Sugar free syrup
+17,0.003793132973713503,frozenset({np.int64(7)}),Chai tea
+18,0.0045038102577275455,frozenset({np.int64(19)}),Housewares
+19,0.005308673687815737,"frozenset({np.int64(10), np.int64(27)})","Drip coffee, Scone"
+20,0.011644832605531296,"frozenset({np.int64(27), np.int64(4)})","Scone, Brewed Chai tea"
+21,0.007945885777891943,"frozenset({np.int64(17), np.int64(27)})","Hot chocolate, Scone"
+22,0.007586265947427006,"frozenset({np.int64(27), np.int64(6)})","Scone, Brewed herbal tea"
+23,0.01625139138624882,"frozenset({np.int64(0), np.int64(27)})","Barista Espresso, Scone"
+24,0.0075434540628478465,"frozenset({np.int64(3), np.int64(27)})","Brewed Black tea, Scone"
+25,0.011088278106002226,"frozenset({np.int64(27), np.int64(13)})","Scone, Gourmet brewed coffee"
+26,0.004007192396609299,"frozenset({np.int64(27), np.int64(5)})","Scone, Brewed Green tea"
+27,0.007192396609298741,"frozenset({np.int64(1), np.int64(4)})","Biscotti, Brewed Chai tea"
+28,0.0045038102577275455,"frozenset({np.int64(1), np.int64(6)})","Biscotti, Brewed herbal tea"
+29,0.0038188201044609986,"frozenset({np.int64(1), np.int64(25)})","Biscotti, Premium brewed coffee"
+30,0.0065759054713588495,"frozenset({np.int64(0), np.int64(1)})","Barista Espresso, Biscotti"
+31,0.004409624111653395,"frozenset({np.int64(1), np.int64(17)})","Biscotti, Hot chocolate"
+32,0.003228016097268602,"frozenset({np.int64(1), np.int64(22)})","Biscotti, Organic brewed coffee"
+33,0.006944087678739618,"frozenset({np.int64(1), np.int64(13)})","Biscotti, Gourmet brewed coffee"
+34,0.0031509547050261153,"frozenset({np.int64(1), np.int64(10)})","Biscotti, Drip coffee"
+35,0.0046493706652966866,"frozenset({np.int64(1), np.int64(3)})","Biscotti, Brewed Black tea"
+36,0.005000428118845791,"frozenset({np.int64(6), np.int64(23)})","Brewed herbal tea, Pastry"
+37,0.003972942888945972,"frozenset({np.int64(22), np.int64(23)})","Organic brewed coffee, Pastry"
+38,0.0035961983046493705,"frozenset({np.int64(10), np.int64(23)})","Drip coffee, Pastry"
+39,0.007021149070982105,"frozenset({np.int64(0), np.int64(23)})","Barista Espresso, Pastry"
+40,0.007474955047521192,"frozenset({np.int64(4), np.int64(23)})","Brewed Chai tea, Pastry"
+41,0.004940491480434969,"frozenset({np.int64(17), np.int64(23)})","Hot chocolate, Pastry"
+42,0.003322202243342752,"frozenset({np.int64(25), np.int64(23)})","Premium brewed coffee, Pastry"
+43,0.006182036133230585,"frozenset({np.int64(13), np.int64(23)})","Gourmet brewed coffee, Pastry"
+44,0.004837742957444987,"frozenset({np.int64(3), np.int64(23)})","Brewed Black tea, Pastry"
+45,0.005702543025944002,"frozenset({np.int64(27), np.int64(22)})","Scone, Organic brewed coffee"
+46,0.005488483603048207,"frozenset({np.int64(25), np.int64(27)})","Premium brewed coffee, Scone"
+47,0.04234095384878842,"frozenset({np.int64(0), np.int64(26)})","Barista Espresso, Regular syrup"
+48,0.003587635927733539,"frozenset({np.int64(26), np.int64(27)})","Regular syrup, Scone"
+49,0.0035105745354910524,"frozenset({np.int64(0), np.int64(26), np.int64(27)})","Barista Espresso, Regular syrup, Scone"
+50,0.015403716071581471,"frozenset({np.int64(0), np.int64(28)})","Barista Espresso, Sugar free syrup"
