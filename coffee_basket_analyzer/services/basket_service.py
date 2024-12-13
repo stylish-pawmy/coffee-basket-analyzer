@@ -11,6 +11,13 @@ class BasketService:
             state = state and df.loc[i, attribute] == df.loc[j, attribute]
         return state
 
+    
+    @staticmethod
+    def get_distinct_products(df):
+        distinct_products = df.drop_duplicates(subset="product_id", inplace=False)
+        return distinct_products[["product_id", "product_type", "product_category"]]
+
+
     @staticmethod
     def create_baskets(df: DataFrame,
                       item_descriptor: str="product_type",
