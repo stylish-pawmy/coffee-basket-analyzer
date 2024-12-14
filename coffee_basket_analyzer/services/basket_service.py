@@ -14,7 +14,7 @@ class BasketService:
     
     @staticmethod
     def get_distinct_products(df):
-        distinct_products = df.drop_duplicates(subset="product_id", inplace=False)
+        distinct_products = df.drop_duplicates(subset="product_type", inplace=False)
         return distinct_products[["product_id", "product_type", "product_category"]]
 
 
