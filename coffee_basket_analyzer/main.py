@@ -6,6 +6,8 @@ from dtos.product_dto import ProductDto
 from dtos.rule_dto import RuleDto
 from services.basket_service import BasketService
 from services.fpgrowth_service import FpGrowthService
+import mlflow
+from mlflow import log_metric, log_param
 
 app = FastAPI()
 
@@ -40,9 +42,17 @@ async def FindRules(
     threshold: float = Body(...)
     ):
 
+    mlflow.start_run()
+    log_param("user_selected_metric", metric)
+    log_param("user_selected_threshold", threshold)
+    log_param("user_selected_products", products)
+
     itemsets = pd.read_pickle("../models/fpgrowth-model.pkl")
     filtered_rules = FpGrowthService.LoadRules(itemsets, products, metric, threshold)
 
+    log_metric("num_filtered_rules", len(filtered_rules))
+    mlflow.end_run()
+    
     rules = []
     for _, row in filtered_rules.iterrows():
         rules.append(
